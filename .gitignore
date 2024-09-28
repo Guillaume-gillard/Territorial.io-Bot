@@ -1,0 +1,44 @@
+# Ignore the virtual environment folder
+env/
+venv/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore temporary files and swap files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore backup and build files
+*.egg-info/
+build/
+dist/
+
+# Ignore test folders and files
+test/
+tests/
+
+# Ignore deployment configuration files
+.DS_Store
+*.env
+
+# Ignore screenshots and images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore local git configuration files (if any)
+.git/
